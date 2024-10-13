@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Editkaro.in Portfolio</h1>
+        <nav>
+            <ul>
+                <li><button class="filter-btn" data-filter="all">All</button></li>
+                <li><button class="filter-btn" data-filter="short-form">Short Form</button></li>
+                <li><button class="filter-btn" data-filter="long-form">Long Form</button></li>
+                <li><button class="filter-btn" data-filter="gaming">Gaming</button></li>
+                <li><button class="filter-btn" data-filter="football">Football</button></li>
+                <li><button class="filter-btn" data-filter="ecommerce">eCommerce</button></li>
+                <li><button class="filter-btn" data-filter="documentary">Documentary</button></li>
+                <li><button class="filter-btn" data-filter="anime">Anime</button></li>
+                <li><button class="filter-btn" data-filter="ads">Ads</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="portfolio">
+        <div class="video-item" data-category="short-form">
+            <video src="videos/short-video.mp4" controls></video>
+            <h2>Short Form Video</h2>
+        </div>
+        <div class="video-item" data-category="long-form">
+            <video src="videos/long-video.mp4" controls></video>
+            <h2>Long Form Video</h2>
+        </div>
+        <!-- Add more video items here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Editkaro.in</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
